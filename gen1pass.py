@@ -1,6 +1,7 @@
 import random
 import string
 import argparse
+import pyperclip
 
 
 def randomStringLower(stringLength=8):
@@ -110,71 +111,96 @@ if args.lower:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringLower(args.length)}')
+    passwd = randomStringLower(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.upper:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringUpper(args.length)}')
+    passwd = randomStringUpper(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.lowerupper:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringLowUpper(args.length)}')
+    passwd = randomStringLowUpper(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.number:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringNumber(args.length)}')
+    passwd = randomStringNumber(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.lowernumber:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringLowNumber(args.length)}')
+    passwd = randomStringLowNumber(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.uppernumber:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringUpNumber(args.length)}')
+    passwd = randomStringUpNumber(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.loweruppernumber:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringLowUpNumber(args.length)}')
+    passwd = randomStringLowUpNumber(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.symbol:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringSymbol(args.length)}')
+    passwd = randomStringSymbol(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.lowersymbol:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringLowSym(args.length)}')
+    passwd = randomStringLowSym(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.uppersymbol:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringUpSym(args.length)}')
+    passwd = randomStringUpSym(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.loweruppersymbol:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringLowUpSym(args.length)}')
+    passwd = randomStringLowUpSym(args.length)
+    pyperclip.copy(passwd)
+    print(f'{passwd}\nText copied to clipboard.')
 
 elif args.loweruppersymbolnumber:
     if args.length < 0:
         args.length = 8
 
-    print(f'{randomStringLowUpSymNum(args.length)}')
+    passwd = randomStringLowUpSymNum(args.length)
+    pyperclip.copy(passwd)
+
+    print(f'{passwd}\nText copied to clipboard.')
 
