@@ -99,6 +99,3 @@ parser.add_argument('-lusn', '--loweruppersymbolnumber', action='store_true',
 parser.add_argument('length')
 
 args = parser.parse_args()
-
-if args.lower:
-    print(f'lowercase {args.length}')
