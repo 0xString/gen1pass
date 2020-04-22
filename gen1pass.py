@@ -77,6 +77,9 @@ parser.add_argument('-lu', '--lowerupper', action='store_true',
 parser.add_argument('-n', '--number', action='store_true', 
     help="generate number ")
 
+parser.add_argument('-un', '--uppernumber', action='store_true', 
+    help="generate uppercase, number ")
+
 parser.add_argument('-ln', '--lowernumber', action='store_true', 
     help="generate lowercase, number ")
 
@@ -85,6 +88,9 @@ parser.add_argument('-lun', '--loweruppernumber', action='store_true',
 
 parser.add_argument('-s', '--symbol', action='store_true', 
     help="generate symbol ")
+
+parser.add_argument('-us', '--uppersymbol', action='store_true', 
+    help="generate upper, symbol ")
 
 parser.add_argument('-ls', '--lowersymbol', action='store_true', 
     help="generate lowercase, symbol ")
