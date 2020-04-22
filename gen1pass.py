@@ -96,9 +96,48 @@ parser.add_argument('-lusn', '--loweruppersymbolnumber', action='store_true',
     help="generate lowercase, uppercase, symbol, number ")
 
 
-parser.add_argument('length', help="length of the password")
+parser.add_argument('length', type=int, help="length of the password")
 
 args = parser.parse_args()
 
 if args.lower:
-    print(f'{randomStringLower(int(args.length))}')
+    if args.length < 0:
+        args.length = 8
+
+    print(f'{randomStringLower(args.length)}')
+"""
+elif args.upper:
+
+
+
+elif args.lowerupper:
+
+
+
+elif args.number:
+
+
+
+elif args.loweruppernumber:
+
+
+
+elif args.symbol:
+
+
+
+elif args.lowersymbol:
+
+
+
+elif args.uppersymbol:
+
+
+
+elif args.loweruppersymbol:
+
+
+
+elif args.loweruppersymbolnumber:
+
+"""
