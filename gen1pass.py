@@ -9,7 +9,6 @@
 -- https://github.com/Zpring/gen1pass --
 """
 
-
 import random
 import string
 import argparse
