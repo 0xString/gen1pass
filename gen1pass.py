@@ -105,39 +105,70 @@ if args.lower:
         args.length = 8
 
     print(f'{randomStringLower(args.length)}')
-"""
+
 elif args.upper:
+    if args.length < 0:
+        args.length = 8
 
-
+    print(f'{randomStringUpper(args.length)}')
 
 elif args.lowerupper:
+    if args.length < 0:
+        args.length = 8
 
-
+    print(f'{randomStringLowUpper(args.length)}')
 
 elif args.number:
+    if args.length < 0:
+        args.length = 8
 
+    print(f'{randomStringNumber(args.length)}')
 
+elif args.lowernumber:
+    if args.length < 0:
+        args.length = 8
+
+    print(f'{randomStringLowNumber(args.length)}')
+
+elif args.uppernumber:
+    if args.length < 0:
+        args.length = 8
+
+    print(f'{randomStringUpNumber(args.length)}')
 
 elif args.loweruppernumber:
+    if args.length < 0:
+        args.length = 8
 
-
+    print(f'{randomStringLowUpNumber(args.length)}')
 
 elif args.symbol:
+    if args.length < 0:
+        args.length = 8
 
-
+    print(f'{randomStringSymbol(args.length)}')
 
 elif args.lowersymbol:
+    if args.length < 0:
+        args.length = 8
 
-
+    print(f'{randomStringLowSym(args.length)}')
 
 elif args.uppersymbol:
+    if args.length < 0:
+        args.length = 8
 
-
+    print(f'{randomStringUpSym(args.length)}')
 
 elif args.loweruppersymbol:
+    if args.length < 0:
+        args.length = 8
 
-
+    print(f'{randomStringLowUpSym(args.length)}')
 
 elif args.loweruppersymbolnumber:
+    if args.length < 0:
+        args.length = 8
 
-"""
+    print(f'{randomStringLowUpSymNum(args.length)}')
+
