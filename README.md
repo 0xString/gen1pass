@@ -8,6 +8,7 @@ A pratical password generator coded in Python
 
 ```bash
 git clone https://github.com/Zpring/gen1pass
+cd gen1pass
 pip3 install -r requirements.txt
 ```
 
