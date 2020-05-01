@@ -215,3 +215,9 @@ elif args.loweruppersymbolnumber:
 
     print(f'{passwd}\nText copied to clipboard.')
 
+else:
+    passwd = randomStringLower(args.length)
+    pyperclip.copy(passwd)
+
+    print(f'{passwd}\nText copied to clipboard.')
+
