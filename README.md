@@ -1,7 +1,7 @@
 # gen1pass
 
 
-A pratical password generator coded in Python
+A practical password generator coded in Python
 
 
 ## Installation
