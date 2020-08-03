@@ -1,6 +1,6 @@
 # gen1pass
 
-A password generator cli.
+A password generator cli coded in Python.
 
 
 ## Installation
