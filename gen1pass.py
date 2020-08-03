@@ -12,61 +12,97 @@ import pyperclip
 
 
 def randomStringLower(stringLength=8):
+    """
+    Generate a random string in Lowercase.
+    """
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringUpper(stringLength=8):
+    """
+    Generate a random string in Uppercase.
+    """
     letters = string.ascii_uppercase
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringLowUpper(stringLength=8):
+    """
+    Generate a random string in Lowercase and Uppercase.
+    """
     letters = string.ascii_letters
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringNumber(stringLength=8):
+    """
+    Generate a random string only with numbers.
+    """
     numbers = string.digits
     return ''.join(random.choice(numbers) for i in range(stringLength))
 
 
 def randomStringLowNumber(stringLength=8):
+    """
+    Generate a random string with Lowercase and numbers.
+    """
     letters = string.ascii_lowercase + string.digits
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringUpNumber(stringLength=8):
+    """
+    Generate a random string with Uppercase and Numbers.
+    """
     letters = string.ascii_uppercase + string.digits
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringLowUpNumber(stringLength=8):
+    """
+    Generate a random string with Lowercase, Uppercase and Numbers.
+    """
     letters = string.ascii_letters + string.digits
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringSymbol(stringLength=8):
+    """
+    Generate a random string only with Symbols.
+    """
     symbols = string.punctuation
     return ''.join(random.choice(symbols) for i in range(stringLength))
 
 
 def randomStringLowSym(stringLength=8):
+    """
+    Generate a random string with Lowercase and Symbols.
+    """
     letters = string.ascii_lowercase + string.punctuation
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringUpSym(stringLength=8):
+    """
+    Generate a random string with Uppercase and Symbols.
+    """
     letters = string.ascii_uppercase + string.punctuation
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringLowUpSym(stringLength=8):
+    """
+    Generate a random string with Lowercase, Uppercase and Symbols.
+    """
     letters = string.ascii_letters + string.punctuation
     return ''.join(random.choice(letters) for i in range(stringLength))
 
 
 def randomStringLowUpSymNum(stringLength=8):
+    """
+    Generate a random string with Lowercase, Uppercase, Symbols and Numbers.
+    """
     letters = string.ascii_letters + string.digits + string.punctuation
     return ''.join(random.choice(letters) for i in range(stringLength ))
 
