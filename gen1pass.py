@@ -1,9 +1,8 @@
-#  ___ ___                                                        
-# / __| _ \     Spring                                               
-# \__ \  _/     https://github.com/Zpring                    
-# |___/_|       Chortle my balls                                                
-#          
-# pass generator coded by Spring#8641
+#   ________
+#  (( \ || |
+#   \\  ||    String
+#  \_)) ||    https://github.com/0xString/
+#
 
 import random
 import string
